@@ -231,5 +231,3 @@ def test_signbody(pub_data):
     # --------------------分界线，下边的不要修改-----------------------------------------
     # method,pub_data和url为必传字段
     request_tool.request(headers=headers,method=method,url=uri,pub_data=pub_data,json_data=json_data,status_code=status_code,expect=expect,feature=feature,story=story,title=title)
-git config --global user.email "1456181121@qq.com"
-git config --global user.name "tanjf1"
