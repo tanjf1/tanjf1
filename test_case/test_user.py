@@ -28,7 +28,7 @@ from tools.api import request_tool
 # post请求json数据 用户登录
 from tools.security.md5_tool import md5_passwd
 
-
+#
 def test_post_jsonn(pub_data):
     method = "POST"  #请求方法，全部大写
     feature = "用户模块"  # allure报告中一级分类
